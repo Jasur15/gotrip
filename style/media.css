@@ -1,0 +1,267 @@
+
+@media (max-width:1080px){
+    .catalog__box{
+        
+        align-items: center;
+        justify-content: center;
+    }
+    .img{
+        width: 240px;
+    }
+    .catalog__card{
+        width: 300px;
+        justify-content: center;
+    }
+}
+@media (max-width:1000px){
+    .catalog__box{
+        flex-wrap: wrap;
+    }
+    .intro{
+        height: 700px;
+    }
+    .card{
+        margin: 0 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card_1 img{
+        height: 230px;
+    }
+    .text{
+        max-width: 500px;
+        width: 100%;
+    }
+}
+@media (max-width:900px){
+    .header__title{
+        font-size: 50px;
+        line-height: 120%;
+    }
+    .header__text{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .intro__link{
+        width: 150px;
+        height: 40px;
+    }
+    .nav img{
+        margin-top: 10px;
+    }
+    input{
+        width: 150px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    button{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .title{
+        padding-top: 15px;
+    }
+    .catalog__box{
+        margin-top: 20px;
+    }
+    .intro{
+        height: 600px;
+    }
+    .header__title{
+       font-size: 70px;
+    }
+    .header__text{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 110px;
+    }
+    button{
+        margin: 0;
+    }
+    .card_1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .card_1 img{
+        margin-top: 10px;
+        max-width: 500px;
+        width: 100%;
+    }
+}
+@media (max-width:800px){ 
+    .card_1{
+        gap: 15px;
+    }
+    .text{
+        margin: 0;
+    }
+    .card_text{
+        margin-top: 15px;
+    }  
+    .header__text{
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+}
+@media (max-width:700px){
+    .header__title{
+        font-size: 50px;
+    }
+    .contact__text{
+        text-align: center;
+    }
+    .intro{
+        height: 400px;
+    }
+    .header__text{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 25px;
+        line-height: 120%;
+        text-align: center;    
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contacts__link{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .tel{
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    .footer{
+        margin-top: 30px;
+        height: 100px;
+    }
+}
+@media (max-width:600px){
+    .img img{
+        width: 210px;
+    }
+}
+@media (max-width:560px){
+    .contact__text{
+        font-size: 18px;
+    }
+}
+@media (max-width:500px){
+    .contact__text{
+        font-size: 15px;
+        text-align: center;
+    }
+    .contact{
+        margin-top: 20px;
+    }
+    .tel{
+        font-size: 18px;
+    }
+    .gmail{
+        font-size: 18px;
+    }
+}
+@media (max-width:400px){
+    .card_1 img{
+        max-width: 320px;
+        width: 100%;
+    }
+    input{
+        width: 130px;
+    }
+    button{
+        width: 68px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .about__text{
+        margin-bottom: 10px;
+    }
+    .card_text{
+        margin-top: 10px;
+    }
+    .contact{
+        margin-top: 10px;
+    }
+    .footer{
+        margin-top: 20px;
+    }
+    .header__title{
+        font-size: 40px;
+    }
+    .img{
+        width: 200px;
+    }
+    .card__img{
+        width: 160px;
+    }
+}
+
+@media (max-width:340px){
+    .tel{
+        font-size: 15px;
+    }
+    .gmail{
+        font-size: 15px;
+    }
+    
+}
+@media (max-width:320px){
+    .intro{
+        height: 400px;
+    }
+    .intro__link{
+        width: 150px;
+    }
+    .catalog__box{
+        margin-top: 10px;
+    }
+    .nav{
+        height: 120px;
+    }
+    .header__title{
+        font-size: 38px;
+    }
+    .header__text{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .text{
+        margin: 0;
+    }
+    .card_1 img{
+        height: 180px;
+    }
+    .about__text{
+        font-size: 15px;
+        line-height: 120%;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+    }
+    .card_1{
+        max-width: 280px;
+        width: 100%;
+        gap: 15px;  
+    }
+    .tel{
+        font-size: 15px;
+    }
+    .gmail{
+        font-size: 15px;
+    }
+}
